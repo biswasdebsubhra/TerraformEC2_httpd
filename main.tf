@@ -1,3 +1,16 @@
+terraform {
+  required_version = ">= 0.11.0"
+
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "org"
+
+    workspaces {
+      prefix = "Terraform-"
+    }
+  }
+}
+
 provider "aws" {
   region = "us-east-1"
 }
