@@ -11,15 +11,15 @@ variable "key_name" {
 
 # CentOS7 x86_64
 variable "ami" {
-  default = "ami-0affd4508a5d2481b"
+  default = "ami-*******"
 }
 
 variable "vpcid" {
-  default = "vpc-0f95cf674a2263ee9"
+  default = "vpc-*******"
 }
 
 variable "subnets" {
-  default = "subnet-0c20f2b065f8f4f5c"
+  default = "subnet-*******"
 }
 
 variable "inst_type" {
