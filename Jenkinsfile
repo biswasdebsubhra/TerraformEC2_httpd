@@ -1,7 +1,7 @@
 /*pipeline {
 agent none*/
 node {
-  /*git url: 'https://github.com/biswasdebsubhra/Terrraform_EC2_httpd.git'*/
+  git url: 'https://github.com/biswasdebsubhra/TerraformEC2_httpd.git'
   stage('init') {
     sh label: 'Initialize Terraform', script: "terraform init"
   }
